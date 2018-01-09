@@ -16,9 +16,6 @@ import Controller.StartGame;
 import Model.Parameter;
 import Model.Connection;
 
-/**
- * 登錄面板，檢查用戶登錄，提供一些功能
- * */
 public class LoginPanel extends javax.swing.JFrame {
 
 	public LoginPanel() {
@@ -90,7 +87,7 @@ public class LoginPanel extends javax.swing.JFrame {
 			}
 		});
 
-		jButton5.setText("\u67e5\u770b\u7a4d\u5206\u699c");
+		jButton5.setText("多型和伺服器");
 		jButton5.addMouseListener(new java.awt.event.MouseAdapter() {
 			public void mouseClicked(java.awt.event.MouseEvent evt) {
 				jButton5MouseClicked(evt);
@@ -236,9 +233,9 @@ public class LoginPanel extends javax.swing.JFrame {
 	//GEN-END:initComponents
 
 	private void jButton5MouseClicked(java.awt.event.MouseEvent evt) {
-		hightestScorePanel h = new hightestScorePanel();
+		msetting m = new msetting();
 		String s[] = new String[2];
-		h.main(s);
+		m.main(s);
 	}
 
 	private void jButton4MouseClicked(java.awt.event.MouseEvent evt) {

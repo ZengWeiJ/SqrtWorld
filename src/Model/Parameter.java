@@ -37,7 +37,9 @@ public class Parameter {
 	 * 這些參數通常是默認的。
 	 * */
 	//新聞界面顯示的網址
-	public static String newsUrl="http://140.118.75.44";
+	
+	public static String url="8.8.8.8";
+	public static String newsUrl="http://"+url;
 	//界面上方的橫向廣告地址
 	public static String TopBannnerUrl="pic\\777.png";
 	//方格大小
@@ -62,9 +64,9 @@ public class Parameter {
 	//數據庫驅動
 	public static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
 	//數據庫地址
-	public static final String DB_URL = "jdbc:mysql://你的數據庫地址:端口/數據庫名稱";
+	public static String DB_URL = "jdbc:mysql://"+url+":3306/test";
 	//數據庫名
-	public static final String USER = "數據庫用戶名";
+	public static String USER = "root";
 	//數據庫密碼
-	public static final String PASS = "數據庫密碼";
+	public static String PASS = "root";
 }

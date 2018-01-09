@@ -125,6 +125,9 @@ public class SettingPanel extends javax.swing.JFrame {
 		}else{
 			jComboBox7.setEnabled(true);
 		}
+		
+			
+		
 		javax.swing.GroupLayout layout = new javax.swing.GroupLayout(
 				getContentPane());
 		getContentPane().setLayout(layout);

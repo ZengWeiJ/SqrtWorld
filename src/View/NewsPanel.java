@@ -13,9 +13,7 @@ import javax.swing.JScrollPane;
 
 import Controller.StartGame;
 import Model.Parameter;
-/**
- * 新聞顯示面板，顯示指定頁面內容
- * */
+
 public class NewsPanel extends javax.swing.JFrame {
 
 
@@ -34,7 +32,7 @@ public class NewsPanel extends javax.swing.JFrame {
 
 		jScrollPane1.setViewportView(jEditorPane1);
 		String path = Parameter.newsUrl;
-		jEditorPane1.setEditable(false);    
+		jEditorPane1.setEditable(false);     //请把editorPane设置为只读，不然显示就不整齐
 		try {
 			jEditorPane1.setPage(path);
 		} catch (IOException e) {
